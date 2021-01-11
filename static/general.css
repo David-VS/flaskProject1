@@ -1,0 +1,68 @@
+body{
+    background-color: #242B2E;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: limegreen;
+    text-align: center;
+}
+
+#header h1{
+    color: #FFFFFF;
+    font-size: 1.8em;
+    font-family: Verdana, sans-serif;
+}
+
+#content{
+    margin-top: 60px;
+    padding:10px;
+    color: #FFFFFF;
+}
+
+#content h2{
+    font-size: 1.2em;
+    font-family: Verdana, sans-serif;
+}
+
+#content p {
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#content p.title{
+    color: limegreen;
+}
+
+/*trukske om iets in het midden van het scherm te krijgen*/
+#content img{
+    display: block;
+    width: 640px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.step
+{
+    display: inline-block;
+    background-color: limegreen;
+    color: #000;
+    width: 1.6em;
+    line-height: 1.6em;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    margin-right: 5px;
+    text-align: center;
+
+}
